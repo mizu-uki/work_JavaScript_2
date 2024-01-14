@@ -1,0 +1,42 @@
+.calculator{
+    width: 500px;
+}
+
+#display{
+    background-color: black;
+    color: #fff;
+    text-align: right;
+    padding: 5px;
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.button > button{
+    padding: 6px 0;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.item{
+    display: block;
+    width: 24%;
+    margin-bottom: 4px;
+}
+
+.item_large{
+    display: block;
+    width: 49.2%;
+}
+
+/* #button_dot{
+    background-color: black;
+} */
